@@ -6,3 +6,6 @@ docker run -p 5000:5000 -d flask-app
 
 docker tag flask-app shakthivelk24/flask-app:latest
 
+docker push shakthivelk24/flask-app:latest
+
+docker pull shakthivelk24/flask-app:latest
